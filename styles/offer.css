@@ -1,0 +1,142 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(169, 168, 168);
+    font-family: Calibri;
+}
+
+header {
+    background-color: #808080;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0px 5px 15px black;
+}
+
+#logo>img {
+    width: 35px;
+    margin: 10px;
+}
+
+#nav {
+    right: 20px;
+    text-align: right;
+    position: absolute;
+    top: 20px;
+}
+
+#nav>a {
+    margin-left: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 22px;
+    padding: 19px 15px 12px 15px;
+}
+
+#nav>a:hover {
+    background-color: #3e3e3e;
+}
+
+h1 {
+    margin: 85px auto 15px auto;
+    text-align: center;
+    font-size: 5vw;
+    text-shadow: 2px 2px 2px grey;
+}
+
+h2 {
+    text-align: center;
+}
+
+.about-txt {
+    width: 80%;
+    margin: 15px auto;
+    font-size: 18px;
+}
+
+h3 {
+    margin: 15px 10%;
+}
+
+.cards {
+    width: 80%;
+    margin: 10px auto
+}
+
+.card {
+    width: 28%;
+    min-width: 275px;
+    margin: 15px;
+    background-color: #808080;
+    padding: 10px;
+    display: inline-table;
+    border-radius: 25px;
+    height: 450px;
+    box-shadow: 10px 10px 10px #5e5c5c;
+}
+
+.photo-ma {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.position {
+    font-size: 18px;
+}
+
+footer {
+    bottom: 0;
+    float: none;
+    background-color: #808080;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 15px 2px;
+    padding-bottom: 15px;
+}
+
+footer>p {
+    padding-top: 15px;
+}
+
+#foot-links>a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 22px;
+    padding: 5px;
+}
+
+#foot-links>a:hover {
+    background-color: #3e3e3e;
+}
+
+#go-up {
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: goldenrod;
+    border-radius: 25px;
+    height: 70px;
+    width: 100px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px;
+    text-decoration: none;
+    color: #000000;
+}
+
+#go-up:hover {
+    font-size: 70px;
+    height: 80px;
+    width: 110px;
+    bottom: 15px;
+    right: 15px;
+}
+
+#top\ team-pic {
+    width: 100%;
+}

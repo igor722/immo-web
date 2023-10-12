@@ -1,0 +1,54 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.landing-bg {
+    width: 100%;
+}
+
+#welcome {
+    font-family: bodoni;
+    color: #4f4e4e;
+    text-shadow: white 1px 0 10px;
+}
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    width: px;
+    padding: 10px 25px;
+    text-transform: full-width uppercase;
+    background-color: #808080ba;
+    border: none;
+    font-size: 16px;
+    border-radius: 20px;
+    color: #2d2c2c;
+
+}
+
+button:hover {
+    background-color: #808080;
+    box-shadow:  0px 0px 15px #808080;
+     
+}
+
